@@ -1,21 +1,32 @@
 # PyMC-Marketing-Demo
 This repository contains a complete demo of Bayesian Media Mix Modeling (MMM) using PyMC-Marketing. The notebook demonstrates how to build, fit, and evaluate an MMM, including adstock and saturation effects, posterior diagnostics, and budget optimization.
 
-*Getting Started*
-Requirements
+## Getting Started
 
-You can install the required libraries using:
+### Requirements
+
+Install the required libraries:
+
+```bash
+pip install pymc-marketing
+```
+
+### Run the notebook
+Open and run the notebook:
+```bash
+jupyter notebook demo.ipynb
+```
+
 
 Contents
 
 The notebook walks through:
+- Loading and preparing marketing data
 
-Loading and preparing marketing data
+- Defining a Bayesian MMM with adstock and saturation
 
-Defining a Bayesian MMM with adstock and saturation
+- Model fitting and convergence diagnostics
 
-Model fitting and convergence diagnostics
+- Posterior analysis and interpretation
 
-Posterior analysis and interpretation
-
-Budget optimization using the fitted model
+- Budget optimization using the fitted model
